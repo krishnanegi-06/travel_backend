@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const hotels = require('../data/hotels');
-const mergeSort = require('../algorithms/mergeSort');
-const binarySearch = require('../algorithms/binarySearch');
-const heapSort = require('../algorithms/heapSort');
+const mergeSort = require('../algorithms/mergesort');
+const binarySearch = require('../algorithms/binarysearch');
+const heapSort = require('../algorithms/heapsort');
 const knapsack = require('../algorithms/knapsack');
 
 // GET /api/hotels?city=Delhi&sortBy=price&tier=Budget
